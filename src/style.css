@@ -14,11 +14,11 @@ section {
     font-size: 40px;
 }
 footer {
-    height: 500px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
 
 }
 
@@ -66,7 +66,7 @@ p {
     
 }
 
-.view-link {
+.view-link-button {
     margin: 20px;
     font-size: 15px;
     font-weight: 300;
@@ -114,13 +114,36 @@ p {
     margin-top: 20px;
 }
 
-.button:hover{
+.view-link-button {
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 72px;
+}
+
+.button:hover{    
     background-color: #ef744b;
 }
 
 .button-resume:hover{
     background-color: #ef744b;
 }
+
+.view-link-button:hover{
+    background-color: #ef744b;
+}
+
+.socials-icon:hover{    
+    background-color: #ef744b;
+    border-radius: 25px;
+}
+
 
 .button:active{
     background-color: #a9a9a9;
@@ -131,6 +154,17 @@ p {
 .button-resume:active{
     background-color: #a9a9a9;
     color: #808080;
+}
+
+.view-link-button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials-icon:active{
+    background-color: #a9a9a9;
+    color: #808080;
+    border-radius: 25px;
 }
 
 .socials {
@@ -194,7 +228,7 @@ p {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b
+    color: white
 }
 
 a {
@@ -239,4 +273,44 @@ a {
     ul.show {
         display: block;
     }
+}
+
+form {
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+form input{
+    border: 0;
+    border-radius: 7px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+form button{
+    border: 0;
+    outline: 0;
+    color: white;
+    width: 120px;
+    height: 46px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px; 
+    margin-left: 270px;
+}
+
+form button:hover{
+    background-color: #ef744b; 
+}
+
+form button:active{
+    background-color: #a9a9a9;
+    color: #808080;
 }

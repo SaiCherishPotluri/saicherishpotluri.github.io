@@ -14,21 +14,13 @@ section {
     font-size: 40px;
 }
 footer {
-    height: 75vh;
+    height: max-content;
     background-color: black;
     color: white;
     text-align: center;
     padding: 50px;
 
 }
-fieldset{
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: none;
-}
-
 legend{
     font-size: 50px;
 }
@@ -283,23 +275,22 @@ a {
     }
 }
 
- form {
-    width: 90vh;
+.form-container {
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
-}
-
-form label{
+    align-items: center;
+    border: none;
     font-size: 30px;
 }
-
-form input, textarea{
-    font-size: 25px;
-    align-items: center;
+.form-container input {
+    width: 500px;
+    font-size: 20px;
 }
-
-
+.form-container textarea {
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 #form-button{
     border: 0;
     outline: 0;
@@ -311,9 +302,6 @@ form input, textarea{
     text-align: center;
     font-size: 25px;
     font-weight: 300;
-    /* padding-top: 5px;
-    margin-top: 20px; 
-    margin-left: 270px; */
 }
 
 #form-button:hover{
